@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Entidad", "1. Entidad", "{66732EEF-DA97-414E-A6C8-8A01BA3BAED9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Datos", "2. Datos", "{9BA1E9F8-32A0-4B25-A74A-61806EB59D1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. LogicaNegocio", "3. LogicaNegocio", "{EFBCEB62-8567-48CF-8015-E66078862CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentacion", "4. Presentacion", "{59BF7BA0-2C63-48D8-A6ED-6CC9095AED44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Utilitario", "5. Utilitario", "{0176E7CE-9E42-407B-9F1F-F93712A2126D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minem.ADAC.SIGED", "Minem.ADAC.SIGED\Minem.ADAC.SIGED.csproj", "{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minem.ADAC.SIGED.Entidad", "Minem.ADAC.SIGED.Entidad\Minem.ADAC.SIGED.Entidad.csproj", "{442CECF4-55FA-4ED5-9488-F8E98E82015C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minem.ADAC.SIGED.Datos", "Minem.ADAC.SIGED.Datos\Minem.ADAC.SIGED.Datos.csproj", "{C52F03F6-1CC2-4611-8BA9-E1561553B8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minem.ADAC.SIGED.LogicaNegocio", "Minem.ADAC.SIGED.LogicaNegocio\Minem.ADAC.SIGED.LogicaNegocio.csproj", "{92278377-3593-4093-BB9C-7616954F39EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minem.ADAC.SIGED.Utilitario", "Minem.ADAC.SIGED.Utilitario\Minem.ADAC.SIGED.Utilitario.csproj", "{F6DB4E14-9199-4F75-BF7E-062A364655C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442CECF4-55FA-4ED5-9488-F8E98E82015C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442CECF4-55FA-4ED5-9488-F8E98E82015C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442CECF4-55FA-4ED5-9488-F8E98E82015C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442CECF4-55FA-4ED5-9488-F8E98E82015C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52F03F6-1CC2-4611-8BA9-E1561553B8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52F03F6-1CC2-4611-8BA9-E1561553B8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52F03F6-1CC2-4611-8BA9-E1561553B8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52F03F6-1CC2-4611-8BA9-E1561553B8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92278377-3593-4093-BB9C-7616954F39EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92278377-3593-4093-BB9C-7616954F39EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92278377-3593-4093-BB9C-7616954F39EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92278377-3593-4093-BB9C-7616954F39EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6DB4E14-9199-4F75-BF7E-062A364655C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DB4E14-9199-4F75-BF7E-062A364655C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6DB4E14-9199-4F75-BF7E-062A364655C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6DB4E14-9199-4F75-BF7E-062A364655C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65E99CF5-5A6C-4F8F-B4E2-0C91ADB7C345} = {59BF7BA0-2C63-48D8-A6ED-6CC9095AED44}
+		{442CECF4-55FA-4ED5-9488-F8E98E82015C} = {66732EEF-DA97-414E-A6C8-8A01BA3BAED9}
+		{C52F03F6-1CC2-4611-8BA9-E1561553B8FD} = {9BA1E9F8-32A0-4B25-A74A-61806EB59D1B}
+		{92278377-3593-4093-BB9C-7616954F39EF} = {EFBCEB62-8567-48CF-8015-E66078862CB9}
+		{F6DB4E14-9199-4F75-BF7E-062A364655C9} = {0176E7CE-9E42-407B-9F1F-F93712A2126D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://softwarenetsac.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Minem.ADAC.SIGED.Datos\\Minem.ADAC.SIGED.Datos.csproj
+		SccProjectTopLevelParentUniqueName1 = Minem.ADAC.SIGED.sln
+		SccProjectName1 = Minem.ADAC.SIGED.Datos
+		SccLocalPath1 = Minem.ADAC.SIGED.Datos
+		SccProjectUniqueName2 = Minem.ADAC.SIGED.Entidad\\Minem.ADAC.SIGED.Entidad.csproj
+		SccProjectTopLevelParentUniqueName2 = Minem.ADAC.SIGED.sln
+		SccProjectName2 = Minem.ADAC.SIGED.Entidad
+		SccLocalPath2 = Minem.ADAC.SIGED.Entidad
+		SccProjectUniqueName3 = Minem.ADAC.SIGED.LogicaNegocio\\Minem.ADAC.SIGED.LogicaNegocio.csproj
+		SccProjectTopLevelParentUniqueName3 = Minem.ADAC.SIGED.sln
+		SccProjectName3 = Minem.ADAC.SIGED.LogicaNegocio
+		SccLocalPath3 = Minem.ADAC.SIGED.LogicaNegocio
+		SccProjectUniqueName4 = Minem.ADAC.SIGED.Utilitario\\Minem.ADAC.SIGED.Utilitario.csproj
+		SccProjectTopLevelParentUniqueName4 = Minem.ADAC.SIGED.sln
+		SccProjectName4 = Minem.ADAC.SIGED.Utilitario
+		SccLocalPath4 = Minem.ADAC.SIGED.Utilitario
+		SccProjectUniqueName5 = Minem.ADAC.SIGED\\Minem.ADAC.SIGED.csproj
+		SccProjectTopLevelParentUniqueName5 = Minem.ADAC.SIGED.sln
+		SccProjectName5 = Minem.ADAC.SIGED
+		SccLocalPath5 = Minem.ADAC.SIGED
+	EndGlobalSection
+EndGlobal
